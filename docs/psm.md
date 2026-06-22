@@ -85,7 +85,7 @@ Based on these values, the generated code obtained the following results for the
 
 These results indicate that GENESIS did not incorporate elements that were absent from the diagram and reproduced most of its content. The identified differences correspond to two relationships that were not represented in the final code.
 
-* [View the complete validation report](../artifacts/psm/genesis-validation.pdf)
+* [View the complete validation report](../artifacts/psm/genesis_quantitative_validation.pdf)
 
 ## GENESIS Execution
 
