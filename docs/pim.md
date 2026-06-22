@@ -11,6 +11,9 @@ The purpose of this level is to incorporate, based on the goal model developed u
 In QuARC, this level uses an **extended feature model for hybrid quantum–classical systems** as the basis for developing a feature model for the case study and a **class diagram** generated from the decisions represented in that model.
 
 > [!NOTE]
+> The extended feature model for hybrid quantum–classical systems used in this level is based on the proposal documented in [this reference](https://sol.sbc.org.br/index.php/cibse/article/view/35292).
+
+> [!NOTE]
 > QuARC uses feature models originating from the discipline of *Software Product Lines (SPL)*, which has the **explicit management of variability** within a product line as one of its main pillars.
 >
 > In the context of quantum software engineering, variability considers aspects such as:
@@ -42,7 +45,22 @@ The purpose of this level is to:
 To achieve this, the variability model is expressed in the **Universal Variability Language (UVL)**, a textual language for defining feature models. Likewise, the class diagram is represented in **UML** using elements from the **Quantum-UML** profile.
 
 > [!NOTE]
-> Since UML does not provide native mechanisms for distinguishing classical components from quantum components, the **Quantum-UML** profile is used. This profile extends UML through stereotypes that enable the classification and representation of components in hybrid quantum–classical systems, such as `«Quantum»` and `«QuantumDriver»`.
+> Since UML does not provide native mechanisms for distinguishing classical components from quantum components, the **Quantum-UML** profile is used. This profile extends UML through stereotypes that enable the classification and representation of components in hybrid quantum–classical systems, such as `«Quantum»` and `«QuantumDriver»`. The profile is described in [this reference](https://link.springer.com/article/10.1007/s00607-022-01091-4).
+
+## Research Foundations
+
+QuARC builds upon previous research on Software Product Lines, variability modeling, requirements-driven modeling, and cross-level traceability for hybrid quantum–classical software. These works provide the foundations for organizing HQC variability and connecting stakeholder goals, feature models, and software architecture. QuARC extends this research line by incorporating LLM-assisted refinement and code generation through GENESIS.
+
+* “A Software Product Line Approach for Developing Hybrid Software Systems.” *Information and Software Technology*, 2025. DOI: https://doi.org/10.1016/j.infsof.2024.107625.
+
+* “Modelo de Características Extendido para Sistemas Híbridos (Cuántico-Clásicos).” *XXVIII Ibero-American Conference on Software Engineering (CIbSE 2025)*, 2025. Link: https://sol.sbc.org.br/index.php/cibse/article/view/35292.
+
+* “QVM: A Requirement-Driven Modeling Approach for Hybrid Quantum–Classical Software Systems.” *XX Jornadas Iberoamericanas de Ingeniería de Software e Ingeniería del Conocimiento (JIISIC 2025)*, 2025. Official program: https://jiisic.uady.mx/2025/assets/docs/Programa_JIISIC_25.pdf.
+
+* “A Cross-Level Traceable Modeling for Hybrid Quantum–Classical Software.” *XXIX Ibero-American Conference on Software Engineering (CIbSE 2026)*, 2026. DOI: https://doi.org/10.5753/cibse.2026.42447.
+
+> [!NOTE]
+> A related work, “MDD-HQC: A Goal-Oriented and Model-Driven Approach for Hybrid Quantum–Classical Systems” has been accepted for publication in *TLISC 2026 (III Taller Latinoamericano en Ingeniería de Software Cuántico)*.
 
 ## Model Description
 
